@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.001638] (heart_rate_monitor) JobQueued: {'identifier': 'heart_rate_monitor', 'dependencies': OrderedDict()}
+[0.002258] (heart_rate_monitor) JobStarted: {'identifier': 'heart_rate_monitor'}
+[0.099022] (-) TimerEvent: {}
+[0.199808] (-) TimerEvent: {}
+[0.300653] (-) TimerEvent: {}
+[0.401373] (-) TimerEvent: {}
+[0.502165] (-) TimerEvent: {}
+[0.602836] (-) TimerEvent: {}
+[0.703544] (-) TimerEvent: {}
+[0.804343] (-) TimerEvent: {}
+[0.904983] (-) TimerEvent: {}
+[1.005644] (-) TimerEvent: {}
+[1.106369] (-) TimerEvent: {}
+[1.207164] (-) TimerEvent: {}
+[1.308400] (-) TimerEvent: {}
+[1.409489] (-) TimerEvent: {}
+[1.510504] (-) TimerEvent: {}
+[1.611175] (-) TimerEvent: {}
+[1.713554] (-) TimerEvent: {}
+[1.814848] (-) TimerEvent: {}
+[1.915506] (-) TimerEvent: {}
+[2.016137] (-) TimerEvent: {}
+[2.116800] (-) TimerEvent: {}
+[2.217506] (-) TimerEvent: {}
+[2.318371] (-) TimerEvent: {}
+[2.419128] (-) TimerEvent: {}
+[2.519761] (-) TimerEvent: {}
+[2.620417] (-) TimerEvent: {}
+[2.721243] (-) TimerEvent: {}
+[2.822211] (-) TimerEvent: {}
+[2.923039] (-) TimerEvent: {}
+[3.024307] (-) TimerEvent: {}
+[3.040633] (heart_rate_monitor) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/heart_rate_monitor', 'build', '--build-base', '/home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build', 'install', '--record', '/home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/install.log', '--single-version-externally-managed'], 'cwd': '/home/sck2n21/robot_ws/heart_rate/src/heart_rate_monitor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sck2n21', 'SSH_CLIENT': '192.168.137.1 53154 22', 'LC_TIME': 'ms_MY.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sck2n21', 'OLDPWD': '/home/sck2n21/robot_ws/heart_rate/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ms_MY.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/sck2n21/robot_ws/heart_rate/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sck2n21', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sck2n21/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ms_MY.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ms_MY.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ms_MY.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ms_MY.UTF-8', 'LC_IDENTIFICATION': 'ms_MY.UTF-8', 'PWD': '/home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor', 'realsense2_DIR': '/opt/realsense/lib/cmake/realsense2', 'SSH_CONNECTION': '192.168.137.1 53154 192.168.137.214 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/prefix_override:/home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages:/home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ms_MY.UTF-8', 'LC_PAPER': 'ms_MY.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.124480] (-) TimerEvent: {}
+[3.225516] (-) TimerEvent: {}
+[3.327339] (-) TimerEvent: {}
+[3.428347] (-) TimerEvent: {}
+[3.529067] (-) TimerEvent: {}
+[3.630120] (-) TimerEvent: {}
+[3.731678] (-) TimerEvent: {}
+[3.832340] (-) TimerEvent: {}
+[3.932963] (-) TimerEvent: {}
+[4.034643] (-) TimerEvent: {}
+[4.138812] (-) TimerEvent: {}
+[4.250906] (-) TimerEvent: {}
+[4.351582] (-) TimerEvent: {}
+[4.397954] (heart_rate_monitor) StdoutLine: {'line': b'running egg_info\n'}
+[4.401575] (heart_rate_monitor) StdoutLine: {'line': b'writing ../../build/heart_rate_monitor/heart_rate_monitor.egg-info/PKG-INFO\n'}
+[4.405218] (heart_rate_monitor) StdoutLine: {'line': b'writing dependency_links to ../../build/heart_rate_monitor/heart_rate_monitor.egg-info/dependency_links.txt\n'}
+[4.406286] (heart_rate_monitor) StdoutLine: {'line': b'writing entry points to ../../build/heart_rate_monitor/heart_rate_monitor.egg-info/entry_points.txt\n'}
+[4.407186] (heart_rate_monitor) StdoutLine: {'line': b'writing requirements to ../../build/heart_rate_monitor/heart_rate_monitor.egg-info/requires.txt\n'}
+[4.407904] (heart_rate_monitor) StdoutLine: {'line': b'writing top-level names to ../../build/heart_rate_monitor/heart_rate_monitor.egg-info/top_level.txt\n'}
+[4.416666] (heart_rate_monitor) StdoutLine: {'line': b"reading manifest file '../../build/heart_rate_monitor/heart_rate_monitor.egg-info/SOURCES.txt'\n"}
+[4.420590] (heart_rate_monitor) StdoutLine: {'line': b"writing manifest file '../../build/heart_rate_monitor/heart_rate_monitor.egg-info/SOURCES.txt'\n"}
+[4.421360] (heart_rate_monitor) StdoutLine: {'line': b'running build\n'}
+[4.421779] (heart_rate_monitor) StdoutLine: {'line': b'running build_py\n'}
+[4.422252] (heart_rate_monitor) StdoutLine: {'line': b'copying heart_rate_monitor/heart_rate_monitor_node.py -> /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build/lib/heart_rate_monitor\n'}
+[4.423554] (heart_rate_monitor) StdoutLine: {'line': b'running install\n'}
+[4.424799] (heart_rate_monitor) StdoutLine: {'line': b'running install_lib\n'}
+[4.428125] (heart_rate_monitor) StdoutLine: {'line': b'copying /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build/lib/heart_rate_monitor/heart_rate_monitor_node.py -> /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages/heart_rate_monitor\n'}
+[4.431126] (heart_rate_monitor) StdoutLine: {'line': b'byte-compiling /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages/heart_rate_monitor/heart_rate_monitor_node.py to heart_rate_monitor_node.cpython-310.pyc\n'}
+[4.433678] (heart_rate_monitor) StdoutLine: {'line': b'running install_data\n'}
+[4.436386] (heart_rate_monitor) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.444112] (heart_rate_monitor) StdoutLine: {'line': b"removing '/home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages/heart_rate_monitor-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.446028] (heart_rate_monitor) StdoutLine: {'line': b'Copying ../../build/heart_rate_monitor/heart_rate_monitor.egg-info to /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages/heart_rate_monitor-0.0.0-py3.10.egg-info\n'}
+[4.451735] (-) TimerEvent: {}
+[4.453134] (heart_rate_monitor) StdoutLine: {'line': b'running install_scripts\n'}
+[4.548674] (heart_rate_monitor) StdoutLine: {'line': b'Installing heart_rate script to /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/heart_rate_monitor\n'}
+[4.550571] (heart_rate_monitor) StdoutLine: {'line': b"writing list of installed files to '/home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/install.log'\n"}
+[4.552522] (-) TimerEvent: {}
+[4.653815] (-) TimerEvent: {}
+[4.691746] (heart_rate_monitor) CommandEnded: {'returncode': 0}
+[4.754671] (-) TimerEvent: {}
+[4.760761] (heart_rate_monitor) JobEnded: {'identifier': 'heart_rate_monitor', 'rc': 0}
+[4.763649] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[console_scripts]
+heart_rate = heart_rate_monitor.heart_rate_monitor_node:main
+

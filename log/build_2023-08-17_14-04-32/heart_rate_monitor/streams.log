@@ -1,0 +1,37 @@
+[3.169s] Invoking command in '/home/sck2n21/robot_ws/heart_rate/src/heart_rate_monitor': PYTHONPATH=/home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/prefix_override:/home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/heart_rate_monitor build --build-base /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build install --record /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/install.log --single-version-externally-managed
+[4.391s] running egg_info
+[4.395s] creating ../../build/heart_rate_monitor/heart_rate_monitor.egg-info
+[4.395s] writing ../../build/heart_rate_monitor/heart_rate_monitor.egg-info/PKG-INFO
+[4.396s] writing dependency_links to ../../build/heart_rate_monitor/heart_rate_monitor.egg-info/dependency_links.txt
+[4.397s] writing entry points to ../../build/heart_rate_monitor/heart_rate_monitor.egg-info/entry_points.txt
+[4.398s] writing requirements to ../../build/heart_rate_monitor/heart_rate_monitor.egg-info/requires.txt
+[4.399s] writing top-level names to ../../build/heart_rate_monitor/heart_rate_monitor.egg-info/top_level.txt
+[4.400s] writing manifest file '../../build/heart_rate_monitor/heart_rate_monitor.egg-info/SOURCES.txt'
+[4.407s] reading manifest file '../../build/heart_rate_monitor/heart_rate_monitor.egg-info/SOURCES.txt'
+[4.410s] writing manifest file '../../build/heart_rate_monitor/heart_rate_monitor.egg-info/SOURCES.txt'
+[4.410s] running build
+[4.411s] running build_py
+[4.411s] creating /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build
+[4.412s] creating /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build/lib
+[4.412s] creating /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build/lib/heart_rate_monitor
+[4.413s] copying heart_rate_monitor/heart_rate_monitor_node.py -> /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build/lib/heart_rate_monitor
+[4.413s] copying heart_rate_monitor/__init__.py -> /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build/lib/heart_rate_monitor
+[4.414s] running install
+[4.415s] running install_lib
+[4.418s] creating /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages/heart_rate_monitor
+[4.419s] copying /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build/lib/heart_rate_monitor/heart_rate_monitor_node.py -> /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages/heart_rate_monitor
+[4.420s] copying /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build/lib/heart_rate_monitor/__init__.py -> /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages/heart_rate_monitor
+[4.422s] byte-compiling /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages/heart_rate_monitor/heart_rate_monitor_node.py to heart_rate_monitor_node.cpython-310.pyc
+[4.425s] byte-compiling /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages/heart_rate_monitor/__init__.py to __init__.cpython-310.pyc
+[4.426s] running install_data
+[4.429s] creating /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/share/ament_index
+[4.430s] creating /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/share/ament_index/resource_index
+[4.430s] creating /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/share/ament_index/resource_index/packages
+[4.431s] copying resource/heart_rate_monitor -> /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/share/ament_index/resource_index/packages
+[4.432s] copying package.xml -> /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/share/heart_rate_monitor
+[4.432s] running install_egg_info
+[4.440s] Copying ../../build/heart_rate_monitor/heart_rate_monitor.egg-info to /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages/heart_rate_monitor-0.0.0-py3.10.egg-info
+[4.445s] running install_scripts
+[4.523s] Installing heart_rate script to /home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/heart_rate_monitor
+[4.525s] writing list of installed files to '/home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/install.log'
+[4.653s] Invoked command in '/home/sck2n21/robot_ws/heart_rate/src/heart_rate_monitor' returned '0': PYTHONPATH=/home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/prefix_override:/home/sck2n21/robot_ws/heart_rate/install/heart_rate_monitor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/heart_rate_monitor build --build-base /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/build install --record /home/sck2n21/robot_ws/heart_rate/build/heart_rate_monitor/install.log --single-version-externally-managed
